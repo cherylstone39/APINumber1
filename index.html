@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeman API</title>
+    <link rel="stylesheet" href="pokemanAPI.css">
+</head>
+<body >
+    <h1 id="title">Pokeman Moves</h1>
+    <p id="para">Pokémon are the creatures that inhabit the world of the Pokémon 
+        games. They can be caught using Pokéballs and trained by battling 
+        with other Pokémon. Each Pokémon belongs to a specific species 
+        but may take on a variant which makes it differ from other Pokémon 
+        of the same species, such as base stats, available abilities and 
+        typings.</p>
+        
+        <p>Here is a list of some moves that can be performed by the Pokeman!</p>
+      
+            <ul id="pokeMoves">
+                
+            </ul>
+
+            <img id="changing_image">
+        
+            <p>Click the button to display the Pokeman
+            <br>
+            <a onclick ="change1()"><button>Pokeman</button></a>
+            <a onclick ="change2()"><button>Pokeman</button></a>
+            <a onclick ="change3()"><button>Pokeman</button></a>
+            </p>
+    <script>
+        function change1(){ 
+        document.getElementById("changing_image").src='./assets/poke3.png';
+    };
+    function change2(){ 
+        document.getElementById("changing_image").src='./assets/pica.png';
+    };
+    function change3(){ 
+        document.getElementById("changing_image").src='./assets/images.jpg';
+    };
+
+    </script>
+
+      <script src="./pokemanAPI.js"></script>
+</body>
+</html>

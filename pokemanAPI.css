@@ -1,0 +1,24 @@
+body {
+    background-image: url(./assets/poke22.jpg)
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+}
+
+p{
+    text-align: center;
+    color: yellow;
+}
+
+ul{
+    color: yellow;
+}
+div {
+    color: yellow;
+}
+img {
+    text-align: middle;
+    padding: 0 0 0 600px;
+}
